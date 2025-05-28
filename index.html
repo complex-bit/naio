@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+        text-align: center;
+    }
+    </style>
+    <script>
+        window.onload = function() {
+            document.getElementById('theForm').onsubmit = function() {
+                var txt = document.getElementById('txtSearch');
+                txt.value = txt.value + " -ai";
+            };
+        };
+    </script>
+</head>
+<body>
+    <h1> Google 2 </h1>
+    <form id="theForm" method="get" action="https://www.google.com/search">
+    <input id="txtSearch" type="text" name="q" size="64" value="">
+    </form>
+</body>
+</html>
