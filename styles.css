@@ -9,11 +9,11 @@ html {
     min-height: 100vh;
     min-height: 100dvh;
     background-color: darkslategray;
+    background-attachment: fixed;
 }
 input {
     border-color: tan;
     outline: none;
     width: 75%;
     font-size: 16px;
-
 }
