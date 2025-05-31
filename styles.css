@@ -9,7 +9,9 @@ html {
     min-height: 100vh;
     min-height: 100dvh;
     background-color: darkslategray;
-    background-attachment: fixed;
+}
+body {
+    background-color: darkslategray;
 }
 input {
     border-color: tan;
